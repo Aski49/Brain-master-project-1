@@ -1,0 +1,121 @@
+﻿:root {
+    --gradient: linear-gradient(90deg, #719ee5, #2c2b9a);
+}
+
+
+
+
+body {
+    background-image: url(backgrounhome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+button {
+    color: blueviolet;
+    font-size: 15px;
+    /*size: 20px;*/
+}
+
+input {
+    box-sizing: content-box;
+    margin-top: 5%;
+}
+
+/* Login page code. */
+
+.form1 {
+    padding: 25px;
+    margin-top: 110px;
+    margin-left: 40%;
+    box-shadow: cadetblue;
+    border: white solid 3px;
+    border-radius: 15px;
+    width: 290px;
+    height: 330px;
+}
+
+.icon {
+    margin-top: 3px;
+    margin-left: 95px;
+    width: 100px;
+    height: 90px;
+}
+
+.head1 {
+    color: white;
+}
+
+table {
+    margin-left: 10px;
+}
+
+.text {
+    background-color: wheat;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+}
+
+    .text:hover {
+        background-color: whitesmoke;
+        color: black;
+        transition-duration: 0.3s;
+    }
+
+.btn {
+    margin-left: 40px;
+    background-color: lightslategrey;
+    color: azure;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+
+    .btn:hover {
+        background-color:var(--gradient);
+        color: azure;
+    }
+
+
+.a1 {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+    .a1:hover {
+        color: lightskyblue;
+    }
+
+@media(max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 1.5rem;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 1.5rem;
+    }
+}
