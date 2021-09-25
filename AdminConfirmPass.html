@@ -1,0 +1,48 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="AdminConfirmPass.css">
+    <title>New password</title>
+</head>
+<body>
+    <div class="form1">
+
+        <img class="icon" src="Recoverpasswod.jpg" alt="">
+
+
+        <div class="head1">
+            <h2>
+                New password
+            </h2>
+        </div>
+
+        <form action="adminnewpass.php" method="POST">
+            <table>
+                <tr>
+                    <th>
+                        <input class="text" placeholder="Enter your email" type="email" name="email" id="" required autofocus>
+                    </th>
+                </tr>
+                
+                <tr>
+                    <th>
+                        <input class="text" placeholder="Enter your new password" type="password" name="password" id="" required autofocus>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input class="text" placeholder="Confirm your new password" type="password" name="cpassword" id="" required>
+                    </th>
+                </tr>
+            </table>
+
+            <br>
+
+            <button class="btn" type="submit" name="update"> Confirm </button>
+        </form>
+        </div>
+
+</body>
+</html>
